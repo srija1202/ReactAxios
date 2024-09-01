@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.user-card {
+  width: 18rem;
+  cursor: pointer;
+  margin: 1rem; /* Equal spacing around the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.user-card-img {
+  height: 12rem; /* Adjust height of the image as needed */
+  object-fit: cover;
+}
+
+.user-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.user-card-buttons {
+  margin-top: 1rem;
+}
+
+.user-card-button {
+  margin-right: 0.5rem; /* Spacing between buttons */
+}
